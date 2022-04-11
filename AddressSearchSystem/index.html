@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>住所検索システム</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="centering-text">
+            <h1>住所検索システム</h1>
+            <form action="#" method="get">
+                <p>郵便番号を入力してください。</p>
+                <div class="centering-item">
+                    <input type="text" id="zipcode">
+                    <button id="btn" class="custom-btn btn-1">検索</button>
+                </div>
+            </form>
+            <p id="error"></p>
+            <p id="output"></p>
+            <p>住所検索システムの説明文を記載。</p>
+            <script src="callApi.js"></script>
+        </div>
+    </body>
+</html>

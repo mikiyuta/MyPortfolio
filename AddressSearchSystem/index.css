@@ -1,0 +1,85 @@
+body {
+  position: fixed;
+  background-image: url("./ImageSource/20191210-1.jpg");
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top 0% left 50%;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+input {
+  margin: 10px;
+  font-size: 1em;
+  padding: 15px 10px 10px;
+  font-family: "Source Sans Pro", arial, sans-serif;
+  border: 1px solid #313131;
+  background: #ffffff;
+  color: #313131;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 600px;
+  vertical-align: middle;
+}
+
+bottom {
+  vertical-align: middle;
+}
+
+.centering-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  padding: 20px;
+}
+
+.centering-item {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.custom-btn {
+  padding: 7px 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-1 {
+  border: 2px solid #313131;
+}
+.btn-1:hover {
+  background: #313131;
+  color: #fff;
+}
+.btn-1:active {
+  top: 2px;
+}
+
+#error {
+  color: red;
+}
