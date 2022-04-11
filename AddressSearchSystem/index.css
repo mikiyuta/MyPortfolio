@@ -1,3 +1,4 @@
+/* 背景の設定 */
 body {
   position: fixed;
   background-image: url("./ImageSource/20191210-1.jpg");
@@ -8,16 +9,33 @@ body {
   background-position: top 0% left 50%;
 }
 
+/* タイトルのフォント設定 */
 h1 {
   font-size: 50px;
   text-align: center;
 }
 
+/* サイトの文字設定 */
 p {
   font-size: 20px;
   text-align: center;
 }
 
+/* テキストを中央に配置 */
+.centering-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  padding: 20px;
+}
+
+/* エラーメッセージのカラーを設定 */
+#error {
+  color: red;
+}
+
+/* 入力フォームのレイアウト設定 */
 input {
   margin: 10px;
   font-size: 1em;
@@ -40,24 +58,14 @@ input {
   vertical-align: middle;
 }
 
+/* ボタンを中央に配置 */
 bottom {
   vertical-align: middle;
 }
 
-.centering-text {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  padding: 20px;
-}
-
-.centering-item {
-  width: 400px;
-  margin: 0 auto;
-}
-
-.custom-btn {
+/* ボタンのレイアウトを変更 */
+.btn {
+  border: 2px solid #313131;
   padding: 7px 10px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -69,17 +77,17 @@ bottom {
   display: inline-block;
 }
 
-.btn-1 {
-  border: 2px solid #313131;
-}
-.btn-1:hover {
+/* ボタンホバー時・押下時の動作を設定 */
+.btn:hover {
   background: #313131;
   color: #fff;
 }
-.btn-1:active {
+.btn:active {
   top: 2px;
 }
 
-#error {
-  color: red;
+/* アイテムを中央に配置 */
+.centering-item {
+  width: 400px;
+  margin: 0 auto;
 }
